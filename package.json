@@ -1,0 +1,24 @@
+{
+    "name": "strider-provider-shell",
+    "version": "0.0.1",
+    "description": "Free form shell provider for Strider",
+    "main": "lib/index.js",
+    "scripts": {
+        "test": "node test/karma.js"
+    },
+    "keywords": [
+        "strider",
+        "provider"
+    ],
+    "author": "Vitaly Sukhomlinov",
+    "license": "ISC",
+    "strider": {
+        "id": "shell-provider",
+        "title": "Execute shell",
+        "type": "provider",
+        "webapp": "lib/webapp.js",
+        "worker": "lib/worker.js",
+        "config": true
+    }
+
+}

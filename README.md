@@ -1,4 +1,3 @@
-strider-provider-shell
-======================
+# Plugin for [Strider](https://github.com/Strider-CD/strider)
 
-Provider for Strider to execute arbitrary scripts
+Execute arbitrary code from shell for your project.
